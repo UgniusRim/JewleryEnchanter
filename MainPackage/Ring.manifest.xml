@@ -1,0 +1,24 @@
+<manifest>
+    <main-class>com.TheHandyMan.bots.jewleryEnchanter.MainPackage.MainClass</main-class>
+    <name>Handy Enchanter</name>
+    <tag-line>Enchants all types of jewelery</tag-line>
+    <description>
+        Enchants Jewelery in any bank. Equip required staff and must have Cosmic runes in inventory.
+    </description>
+    <version>1.0.6</version>
+    <compatibility>
+        <game-type>OSRS</game-type>
+    </compatibility>
+    <categories>
+        <category>MAGIC</category>
+    </categories>
+    <internal-id>My first bot</internal-id>
+    <hidden>false</hidden>
+    <access>public</access>
+    <tags></tags>
+    <resources>
+        <resource>com/TheHandyMan/bots/jewleryEnchanter/GUI/GUI.fxml</resource>
+        <resource>com/TheHandyMan/bots/jewleryEnchanter/GUI/NewInfo.fxml</resource>
+    </resources>
+    <open-source>false</open-source>
+</manifest>

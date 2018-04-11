@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="898.0" type="Accordion" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <panes>
+    <TitledPane animated="false" text="Gold Rates">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <FlowPane layoutY="74.0" prefHeight="380.0" prefWidth="569.0">
+                     <children>
+                        <GridPane prefHeight="411.0" prefWidth="569.0">
+                           <children>
+                              <Label text="Enchants p/h:">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="53.0" text="Gold Made:" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="259.0" text="Gold p/h:" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label fx:id="GOLD_PH" layoutX="35.0" layoutY="100.0" prefHeight="18.0" prefWidth="205.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label fx:id="JEWLS_PH" layoutX="35.0" layoutY="18.0" prefHeight="18.0" prefWidth="229.0" text="0" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label fx:id="GOLD_MADE" layoutX="188.0" layoutY="100.0" prefHeight="18.0" prefWidth="205.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label layoutX="35.0" layoutY="182.0" text="Time Running:" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label fx:id="STOP_W" layoutX="188.0" layoutY="182.0" prefHeight="18.0" prefWidth="205.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="296.0" minWidth="10.0" prefWidth="273.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="419.0" minWidth="10.0" prefWidth="296.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </FlowPane>
+               </children></AnchorPane>
+      </content>
+         <font>
+            <Font name="Agency FB" size="24.0" />
+         </font>
+    </TitledPane>
+    <TitledPane animated="false" text="Experience Rates">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <FlowPane layoutX="11.0" layoutY="61.0" prefHeight="424.0" prefWidth="748.0">
+                     <children>
+                        <GridPane prefHeight="411.0" prefWidth="735.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="314.0" minWidth="10.0" prefWidth="313.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="419.0" minWidth="10.0" prefWidth="316.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Magic Experinece p/h:">
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="53.0" text="Progress Bar:" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="259.0" text="Experience gained:" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                              </Label>
+                              <ProgressBar fx:id="MAGIC_BAR" prefHeight="28.0" prefWidth="387.0" progress="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </ProgressBar>
+                              <Label layoutX="35.0" layoutY="182.0" text="Experience Left To Level:" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="30.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label fx:id="MAGIC_XP" layoutX="35.0" layoutY="100.0" prefHeight="18.0" prefWidth="205.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label fx:id="XP_H" layoutX="35.0" layoutY="18.0" prefHeight="18.0" prefWidth="229.0" text="0" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="25.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label fx:id="XP_TO_LVL" layoutX="231.0" layoutY="182.0" prefHeight="18.0" prefWidth="134.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Agency FB" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="50.0" left="190.0" />
+                                 </GridPane.margin>
+                              </Label>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </FlowPane>
+               </children></AnchorPane>
+      </content>
+         <font>
+            <Font name="Agency FB" size="24.0" />
+         </font>
+    </TitledPane>
+  </panes>
+</fx:root>
